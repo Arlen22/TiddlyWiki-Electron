@@ -11,3 +11,7 @@ My windows batch file looks like this:
 And is stored next to the bin and src (TWD in this case) folders. To open a TiddlyWiki file, I just drag it over the `.bat` file and it opens in Electron.
 
 And the best part is that I have this stored on my dropbox, so if I need it, I can get it anywhere.
+
+##Credits
+
+I use inject.js from TiddlyFox for TiddlyWiki Classic compatibility. For TW5 files, the app uses the TiddlyFox saver that ships with TW5.
