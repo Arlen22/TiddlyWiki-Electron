@@ -20,8 +20,9 @@ The JavaScript in this file is injected into each TiddlyWiki page that loads
 			var event = document.createEvent("Events");
 			event.initEvent("tiddlyfox-save-file",true,false);
 			message.dispatchEvent(event);
+			return true;
 		}
-		return true;
+		return false;
 	};
 
 	/*
