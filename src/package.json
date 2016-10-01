@@ -1,5 +1,5 @@
 {
-  "name": "tiddlywiki5",
+  "name": "tw5-electron",
   "version": "1.0.0",
   "description": "",
   "main": "electron.js",
