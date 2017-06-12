@@ -14,7 +14,8 @@ var currentWebContents = remote.getCurrentWebContents();
 //no ipc calls needed as this script has full access to the node modules
 //regardless of nodeIntegration.
 process.once('loaded', function() {
-	window.webContents = currentWebContents;
+	//only needed for access from the console
+	//window.webContents = currentWebContents;
 	
 	
 	
