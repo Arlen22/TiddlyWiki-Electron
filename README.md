@@ -12,6 +12,6 @@ And is stored next to the bin and src (TWD in this case) folders. To open a Tidd
 
 And the best part is that I have this stored on my dropbox, so if I need it, I can get it anywhere.
 
-##Credits
+## Credits
 
 I use inject.js from TiddlyFox for TiddlyWiki Classic compatibility. For TW5 files, the app uses the TiddlyFox saver that ships with TW5.
