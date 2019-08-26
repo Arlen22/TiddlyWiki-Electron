@@ -30,7 +30,8 @@ app.on('ready', function() {
 		width: 1280, 
 		height: 720,
 		webPreferences: {
-			nodeIntegration: false
+			nodeIntegration: false,
+			preload: path.join( __dirname, 'preload-tw5.js')
 		},
 		preload: path.join( __dirname, 'preload-tw5.js')
 	});
